@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         btnAddEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "onClick: Clicked Add Edit btn.");
-                Intent editIntent = new Intent(MainActivity.this, AddEditScreen.class);
-                startActivity(editIntent);
+                Log.d(TAG, "onClick: Clicked Add btn.");
+                Intent addIntent = new Intent(MainActivity.this, AddEditScreen.class);
+                startActivity(addIntent);
             }
         });
     }

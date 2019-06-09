@@ -5,10 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater; // Convert XML to ViewGroups/Widgets, i.e. builds View objs
-import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class BdaysAdapter extends RecyclerView.Adapter{

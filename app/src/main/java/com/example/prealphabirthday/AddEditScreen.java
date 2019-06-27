@@ -15,8 +15,9 @@ public class AddEditScreen extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate: Starting activity.");
         setContentView(R.layout.add_edit);
-        Button btnSave = (Button) findViewById(R.id.b_save);
+        Button btnSave = findViewById(R.id.b_save);
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

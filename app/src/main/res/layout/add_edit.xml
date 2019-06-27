@@ -12,9 +12,30 @@
         android:text="Save" />
 
     <EditText
-        android:id="@+id/b_edit_name"
+        android:id="@+id/edit_name"
         android:layout_width="339dp"
         android:layout_height="203dp"
         android:text="Name Here"
         android:textAlignment="textEnd" />
+
+    <EditText
+        android:id="@+id/edit_bday"
+        android:layout_width="307dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="233dp"
+        android:text="Birthday" />
 </RelativeLayout>
